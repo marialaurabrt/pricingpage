@@ -244,15 +244,7 @@ body {
       cursor: pointer;
       position: relative;
       transition: all 0.2s;
-      &:hover {
-        background: url(https://raw.githubusercontent.com/milenig/fend-mentor_pricing-component/3ccfd6b18e87377a950915288ef64c896969bf62/images/icon-slider.svg)
-          rgb(27, 230, 209) center no-repeat;
-      }
-      &:active {
-        cursor: grabbing;
-        background: url(https://raw.githubusercontent.com/milenig/fend-mentor_pricing-component/3ccfd6b18e87377a950915288ef64c896969bf62/images/icon-slider.svg)
-          rgb(13, 190, 173) center no-repeat;
-      }
+      
     }
   }
 }

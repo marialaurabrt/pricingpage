@@ -1,16 +1,19 @@
-let slider = document.getElementById("slider");
-let price = document.getElementById("price");
-let chats = document.getElementById("chats");
 
-let checkbox = document.getElementById("checkbox");
-let text = document.getElementById("period");
+// Cambia la cantidad de chats
 
-var prices = [12, 18, 24, 30, 36, 42, 48, 54, 60, 66]; // Array posibles precios (interactivo)
+addEventListener('load',inicio,false);
 
-console.log(price)
-
-function calculaDescuento(){
-    if checkbox = true{
-        price.innerHTML = price
-    }
+function inicio(){
+    document.getElementById('chatsRange').addEventListener('change',cambioChats,false);
 }
+
+function cambioChats(){    
+    document.getElementById('chats').innerHTML=document.getElementById('chatsRange').value;
+}
+
+// Aplica descuentos
+
+let toggle = document.getElementById("toggle");
+let text = document.getElementById("periodo");
+
+var prices = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]

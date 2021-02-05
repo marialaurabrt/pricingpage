@@ -178,11 +178,6 @@ body {
       cursor: pointer;
       position: relative;
       transition: all 0.2s; }
-      .slider input::-webkit-slider-thumb:hover {
-        background: url(https://raw.githubusercontent.com/milenig/fend-mentor_pricing-component/3ccfd6b18e87377a950915288ef64c896969bf62/images/icon-slider.svg) #1be6d1 center no-repeat; }
-      .slider input::-webkit-slider-thumb:active {
-        cursor: grabbing;
-        background: url(https://raw.githubusercontent.com/milenig/fend-mentor_pricing-component/3ccfd6b18e87377a950915288ef64c896969bf62/images/icon-slider.svg) #0dbead center no-repeat; }
 
 @media only screen and (max-width: 610px) {
   .title {
