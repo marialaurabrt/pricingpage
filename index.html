@@ -33,24 +33,24 @@
             </div>
 
             <div class="right">
-                <span class="price">$<span id="price">16.00</span></span> / <span id="periodo">month</span>
+                <span class="price">$<span id="price">12.00</span></span> / <span id="periodo">mes</span>
             </div>
         </div>
       
         <div class="slider">
-            <input type="range" min="100" max="1100" value="100" step="100" id="chatsRange"> 
+            <input type="range" min="100" max="1000" value="100" step="100" id="chatsRange" onchange="cambiaPrices(), descuento()"> 
         </div>
       
         <div class="toggle-container">
-            Costo mensual
+            Facturación mensual
             <label class="switch">
             <input type="checkbox" id="toggle" onclick="descuento()">
             <span class="slide round"></span>
             </label>
             <br class="show">
       
-            Costo anual
-            <span class="discount">25% <span class="hide">discount<span></span>
+            Facturación anual
+            <span class="discount">25% <span class="hide">descuento<span></span>
         </div>
       
         <div class="bottom">
